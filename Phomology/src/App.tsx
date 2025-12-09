@@ -5,7 +5,7 @@ export function App() {
 
   return (
     <>
-     <h1>Phomology</h1>
+     <h1>The Phomology</h1>
     </>
   )
 }
