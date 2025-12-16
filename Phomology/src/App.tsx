@@ -1,11 +1,16 @@
 
 import './App.css'
+import Heading from '../componentes/Heading/Index'
+
 
 export function App() {
 
   return (
-    <>
-     <h1>The Phomology</h1>
+    <>  
+    <Heading> </Heading>
+     <section>
+       <h1>The Phomology</h1>
+     </section>
     </>
   )
 }
