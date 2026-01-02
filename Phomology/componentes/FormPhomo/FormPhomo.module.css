@@ -1,9 +1,9 @@
-section{
+section.counterPhomo{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 5em;
+ margin: 50px;
   border-radius: 8px;
   color: var(--background-light);
 }

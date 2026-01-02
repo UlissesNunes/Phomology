@@ -6,39 +6,39 @@
 }
 
 
-.headerPai {
-
+header.headerPai {
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 20px;
     align-items: center;
     width: 100%;
-
+   
     background-color: var(--background-dark);
     height: 80px;
 }
 .headerPai .AlarmClockCheck {
-    margin-left: 10px;
+    margin-left: 0px;
 }
-.headerPai .headerNav {
+nav {
+    gap: 15px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+
     padding: 10px;
 }
 
-.headerPai .headerNav a {
+nav a {
     text-decoration: none;
     color: var(--link-color);
-    font-weight: 500;
+    
 }
 .headerPai .headerNav a:hover {
     color: var(--link-hover-color);
 }
 
 .headerPai h1 {
-  margin-left: -20%;
+  
     color: var(--principal-dark);
-    font-size: 1em;
+    font-size: 1.1em;
 }

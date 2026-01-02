@@ -1,10 +1,10 @@
-import styles from'./Counter.module.css' 
+import styles from'./Footer.module.css' 
 
 export default function index() {
   return (
     <>
 
-    <section className={styles.counterPhomo}>
+    <section className={styles.FooterPhomo}>
        
     </section>
 
