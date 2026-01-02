@@ -1,6 +1,7 @@
 import './Index.modules.css'
 
-import  { AlarmClockCheck } from 'lucide-react'
+import { BrainCircuit,  Settings2, House, GalleryVerticalEnd, Sun } from 'lucide-react'
+
 
 type HeadingProps = {
   children: React.ReactNode;   
@@ -12,14 +13,14 @@ console.log(children)
     <>
     <header className='headerPai'>
 
-           <AlarmClockCheck size={32} color='#00b37e'/>
+           <BrainCircuit size={32} color='#2f8eed' className='AlarmClockCheck'/>
            <h1 className='headerH1'>Phomology</h1>
     
         <nav className='headerNav'>
-            <a href="">fd</a>
-            <a href="">fd</a>
-            <a href="">fd</a>
-            <a href="">fd</a>
+            <a href=""><House size={20} color='#2f8eed'/></a>
+            <a href=""><GalleryVerticalEnd size={20} color='#2f8eed'/></a>
+            <a href=""><Settings2 size={20} color='#2f8eed'/></a>
+            <a href=""><Sun size={20} color='#2f8eed'/></a>
         </nav>
         
     </header>

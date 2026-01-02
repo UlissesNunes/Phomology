@@ -1,16 +1,15 @@
 
 import './App.css'
-import Heading from '../componentes/Heading/Index'
-
+import Heading from '../componentes/Heading'
+import CounterPhomo from '../componentes/CounterPhomo/Index'
 
 export function App() {
 
   return (
     <>  
     <Heading> </Heading>
-     <section>
-       <h1>The Phomology</h1>
-     </section>
+    <CounterPhomo/>
+     
     </>
   )
 }
