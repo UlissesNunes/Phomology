@@ -8,11 +8,19 @@ section.FooterPhomo{
   color: var(--background-light);
 }
 
-p {
+footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
-  font-size: 5em;
+  height: 50px;
+  background-color: var(--primary-color);
+  margin-top: 20px;
   border-radius: 8px;
+}
+
+footer p {
+
+  font-size: .7em;
+ 
 }

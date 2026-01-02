@@ -8,7 +8,6 @@ export default function index() {
        
     </section>
 
-     <p >00:00</p>
     </>
   )
 }

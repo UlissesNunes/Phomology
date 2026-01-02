@@ -5,10 +5,14 @@ export default function index() {
     <>
 
     <section className={styles.FooterPhomo}>
-       
+    
     </section>
-
-     <p >00:00</p>
+  <footer>
+    
+    <p>&copy; 2025 Phomology. Todos os direitos reservados a @Ulisses.</p>
+    
+    </footer>   
+   
     </>
   )
 }
