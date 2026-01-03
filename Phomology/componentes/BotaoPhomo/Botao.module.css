@@ -1,18 +1,2 @@
-section.BotaoPhomo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 
-  border-radius: 8px;
-  color: var(--background-light);
-}
 
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  font-size: 5em;
-  border-radius: 8px;
-}

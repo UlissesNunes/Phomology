@@ -5,11 +5,21 @@ export default function index() {
     <>
 
     <section className={styles.FormPhomo}>
-     <form>
+     <form className='form' action=''>
+      <div className='formRow'>
+      <label htmlFor="">Digite a Task</label>
+        <input type="text" id="input" />
       
-      <label htmlFor="">Digite aqui
-        <input type="text" name="" id="" />
-      </label>
+      </div>
+
+      <div className='formRow'>
+      <p>Lorem, ipsum dolor sit amet consec</p>
+      </div>
+
+      <div className='formRow'>
+      <p>Ciclos de estudo:</p>
+      <p>0 0 0 0 0 0 0 0 0 0</p>
+      </div>
       </form>  
     </section>
    

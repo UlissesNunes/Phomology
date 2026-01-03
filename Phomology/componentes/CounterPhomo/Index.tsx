@@ -5,10 +5,10 @@ export default function index() {
     <>
 
     <section className={styles.counterPhomo}>
-       
+       <p className={styles.p}>00:00</p>
     </section>
 
-     <p >00:00</p>
+     
     </>
   )
 }

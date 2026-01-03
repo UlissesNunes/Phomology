@@ -1,14 +1,30 @@
-section.counterPhomo{
+
+
+.form {
   display: flex;
+  flex-direction: column;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   width: 100%;
- margin: 50px;
- 
-  color: var(--background-light);
+    gap: 10px
+  }
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  gap: 10px
 }
 
-p {
-  font-size: 0.7em;
- 
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  
+  font-size: 1em;
 }
+
+

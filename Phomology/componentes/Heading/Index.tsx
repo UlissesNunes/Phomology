@@ -17,10 +17,10 @@ console.log(children)
            <h1 className='headerH1'>Phomology</h1>
     
         <nav className='headerNav'>
-            <a href=""><House size={20} color='#2f8eed'/></a>
-            <a href=""><GalleryVerticalEnd size={20} color='#2f8eed'/></a>
-            <a href=""><Settings2 size={20} color='#2f8eed'/></a>
-            <a href=""><Sun size={20} color='#2f8eed'/></a>
+            <a href="" className={styles.a}><House size={20} color='#2f8eed'/></a>
+            <a href="" className={styles.a}><GalleryVerticalEnd size={20} color='#2f8eed'/></a>
+            <a href="" className={styles.a}><Settings2 size={20} color='#2f8eed'/></a>
+            <a href="" className={styles.a}><Sun size={20} color='#2f8eed'/></a>
         </nav>
         
     </header>

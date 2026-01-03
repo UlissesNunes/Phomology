@@ -5,6 +5,7 @@ import CounterPhomo from '../componentes/CounterPhomo'
 import FormPhomo from '../componentes/FormPhomo'
 import BotaoPhomo from '../componentes/BotaoPhomo'
 import FooterPhomo from '../componentes/FooterPhomo'
+import DefaultInput from '../componentes/DefaultInput'
 export function App() {
 
   return (
@@ -12,6 +13,7 @@ export function App() {
     <Heading> </Heading>
     <CounterPhomo/>
     <FormPhomo/>
+    <DefaultInput id="MyInput" type="text"/>
      <BotaoPhomo/>
       <FooterPhomo/>
     </>

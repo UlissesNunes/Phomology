@@ -25,10 +25,10 @@ nav {
     gap: 15px;
     display: flex;
 
-    padding: 10px;
+    padding: 1px;
 }
 
-nav a {
+nav .a {
     text-decoration: none;
     color: var(--link-color);
     
@@ -40,5 +40,5 @@ nav a {
 .headerPai h1 {
   
     color: var(--principal-dark);
-    font-size: 1.1em;
+    font-size: 1em;
 }
