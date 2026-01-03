@@ -22,9 +22,9 @@ header.headerPai {
     margin-left: 0px;
 }
 nav {
-    gap: 15px;
+    gap: 14px;
     display: flex;
-
+    margin-top: 5px;
     padding: 1px;
 }
 

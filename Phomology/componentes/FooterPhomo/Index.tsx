@@ -9,7 +9,7 @@ export default function index() {
     </section>
   <footer>
     
-    <p>&copy; 2025 Phomology. Todos os direitos reservados a @Ulisses.</p>
+    <p>&copy; 2025 Phomology. Todos os direitos reservados @Ulisses</p>
     
     </footer>   
    

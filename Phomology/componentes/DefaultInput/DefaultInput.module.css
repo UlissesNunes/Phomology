@@ -1,14 +1,45 @@
-section.DefaultInput{
+section{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  line-height: 1.4;
-  font-weight: bold;
+  text-align: center;
+  line-height: 2.4;
+  font-weight: 500;
 }
 
-.p {
-  
-  font-size: clamp(5em, 30vw, 11em);
+input {
+  color: var(--principal-dark);
+  background-color: transparent;
+  outline: none;
+  width: 250px;
+  height: 35px;
+  border-radius: 4px;
+  border: 3px solid transparent;
+  border-bottom: 3px solid var(--principal-dark);
+  transition: all 0.7s ease;
+  padding: 0 10px;
+  font-size: .9em;
+  font-weight: 700;
+  text-align: center;
+}
 
+input:focus {
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  border: 3px solid var(--principal-dark);
+
+}
+
+input:disabled {
+  color: var(--gray-300);
+  border: 3px solid var(--gray-700);
+}
+
+.label {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 10px;
+  
 }

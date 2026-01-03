@@ -13,7 +13,7 @@ console.log(children)
     <>
     <header className={styles.headerPai}>
 
-           <BrainCircuit size={32} color='#2f8eed' className='AlarmClockCheck'/>
+           <BrainCircuit size={35} color='#2f8eed' className='AlarmClockCheck'/>
            <h1 className='headerH1'>Phomology</h1>
     
         <nav className='headerNav'>
