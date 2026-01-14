@@ -1,12 +1,20 @@
 import styles from'./Botao.module.css' 
 
-export default function index() {
+
+type BotaoPhomoProps = {
+  icon: React.ReactNode
+  color?: 'principal' | 'danger'
+} & React.ComponentProps<'button'>
+
+export default function index({icon , color= 'principal' ,...props}: BotaoPhomoProps) {
   return (
     <>
 
-    <section className={styles.BotaoPhomo}>
-       
-    </section>
+    <button className={`${styles.BotaoPhomo} ${styles[color]}`}
+       { ...props}>
+
+        {icon}
+    </button>
 
     </>
   )

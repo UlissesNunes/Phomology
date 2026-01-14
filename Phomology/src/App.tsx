@@ -2,10 +2,11 @@
 import './App.css'
 import Heading from '../componentes/Heading'
 import CounterPhomo from '../componentes/CounterPhomo'
-
+import CycleRoutes from '../componentes/CycleRoutes'
 import BotaoPhomo from '../componentes/BotaoPhomo'
 import FooterPhomo from '../componentes/FooterPhomo'
 import DefaultInput from '../componentes/DefaultInput'
+import { PlayCircleIcon, StopCircleIcon} from 'lucide-react'
 export function App() {
 
   return (
@@ -23,12 +24,17 @@ export function App() {
 
       <div className='formRow'>
       <p>Ciclos de estudo:</p>
+      <CycleRoutes/>
       <p>0 0 0 0 0 0 0 0 0 0</p>
       </div>
       </form>  
-    </section>
-     <BotaoPhomo/>
-      <FooterPhomo/>
+    
+     <BotaoPhomo  color='principal'  icon={<PlayCircleIcon/> } />
+     <BotaoPhomo  color='danger'  icon={<StopCircleIcon/> } />
+     
+     </section>
+     <FooterPhomo/> 
+     
     </>
   )
 }

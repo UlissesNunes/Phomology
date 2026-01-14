@@ -1,0 +1,29 @@
+
+
+.cyclesPoints {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.cyclePoint {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+}
+
+.workCurto {
+  background-color: #4caf50;
+}
+
+.workLongo {
+  background-color: #2196f3;
+}
+.breakCurto {
+  background-color: #ff9800;
+}
+.breakLongo {
+  background-color: #f44336;
+}

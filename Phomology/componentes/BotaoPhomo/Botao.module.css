@@ -1,2 +1,33 @@
+.BotaoPhomo {
+  background-color: var(--principal-dark);
+  border: none;
+  border-radius: 4px;
+  color: var(--background-dark);
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  width: 60%;
+  padding: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  filter: brightness(70%);
+}
 
+
+.BotaoPhomo:hover {
+  transition: all 0.3s ease;
+  filter: brightness(45%);
+}
+
+.danger {
+background: var(--danger);
+color: aliceblue ;
+}
+
+.principal {
+background-color: var(--principal);
+ 
+}
 
