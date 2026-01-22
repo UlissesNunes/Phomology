@@ -3,7 +3,7 @@
 .cyclesPoints {
   display: flex;
   gap: 8px;
-  margin-top: 8px;
+  margin: 8px;
 }
 
 .cyclePoint {
@@ -15,15 +15,16 @@
 }
 
 .workCurto {
-  background-color: #4caf50;
+  background-color: #27b79d86;
 }
 
 .workLongo {
-  background-color: #2196f3;
+  background-color: #089178;
+;
 }
 .breakCurto {
-  background-color: #ff9800;
+  background-color: #be4b0982;
 }
 .breakLongo {
-  background-color: #f44336;
+  background-color: #be4b09;
 }
