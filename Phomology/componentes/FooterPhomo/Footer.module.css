@@ -9,18 +9,20 @@ section.FooterPhomo{
 }
 
 footer {
+  gap: 5px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   height: 110px;
   width: 100%;
-  
+margin-bottom: 10px;  
 
-  margin: 10px 0px;
   
 }
 
 footer p {
+  color: rgb(207, 206, 206);
 font-weight: 700;
   font-size: .7em;
  
