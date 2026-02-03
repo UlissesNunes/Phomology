@@ -1,0 +1,36 @@
+section.FormMainPhomo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.p {
+  
+  font-size: clamp(5em, 30vw, 11em);
+
+}
+
+.FormPhomo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 25px;
+  line-height: 2.6;
+  
+
+}
+
+
+
+.fade-in-section {
+  animation: fadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+
+
