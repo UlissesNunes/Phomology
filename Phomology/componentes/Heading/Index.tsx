@@ -1,17 +1,21 @@
 import styles from './Index.module.css'
 import { useState, useEffect } from 'react'
-import { BrainCircuit, Settings2, House, GalleryVerticalEnd, Sun } from 'lucide-react'
+import { BrainCircuit, Settings2, House, GalleryVerticalEnd, SunIcon, MoonIcon } from 'lucide-react'
 
-type HeadingProps = {
-  children: React.ReactNode
-}
+
 
 type Theme = 'dark' | 'light'
 
-export default function Heading({ children }
-  : HeadingProps) {
-  const [theme, setTheme] = useState<Theme>('dark')
-console.log(children)
+export function Heading() {const [theme, setTheme] = useState<Theme>(() => {
+    const savedTheme = localStorage.getItem('theme') as Theme || null
+    return savedTheme == 'light' ? 'light' : 'dark'
+  })
+
+  const nextTheme = {
+    dark: <SunIcon size={20} color="#2f8eed"/>,
+    light: <MoonIcon size={20} color="#2f8eed" />
+  }
+
   const HandleTheme = (
     event: React.MouseEvent<HTMLAnchorElement>
   ) => {
@@ -23,7 +27,8 @@ console.log(children)
   }
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
   }, [theme])
 
   return (
@@ -51,7 +56,7 @@ console.log(children)
             title="Mudar tema"
             onClick={HandleTheme}
           >
-            <Sun size={20} color="#2f8eed" />
+           {nextTheme[theme]}
           </a>
         </nav>
       </header>

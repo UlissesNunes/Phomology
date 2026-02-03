@@ -1,14 +1,14 @@
 
 import './App.css'
 import { useState } from 'react'
-import Heading from '../componentes/Heading'
+import {Heading} from '../componentes/Heading'
 import CounterPhomo from '../componentes/CounterPhomo'
 import CycleRoutes from '../componentes/CycleRoutes'
 import BotaoPhomo from '../componentes/BotaoPhomo'
 import FooterPhomo from '../componentes/FooterPhomo'
 import DefaultInput from '../componentes/DefaultInput'
 import NotesManager from '../componentes/NotesManager'
-import { PlayCircleIcon, StopCircleIcon, FilePenLineIcon, ArrowLeftCircle } from 'lucide-react'
+import { PlayCircleIcon, FilePenLineIcon, ArrowLeftCircle } from 'lucide-react'
 
 export function App() {
   const [isNotesPage, setIsNotesPage] = useState(false)
@@ -16,7 +16,7 @@ export function App() {
   return (
     // A classe fade-container garante que a troca de conteúdo seja suave
     <div className={`app-wrapper ${isNotesPage ? 'view-notes' : 'view-home'}`}>
-      <Heading children />
+      <Heading  />
 
       {/* TELA DE NOTAS */}
       {isNotesPage ? (
@@ -63,7 +63,7 @@ export function App() {
             </form>
 
             <BotaoPhomo color='principal' icon={<PlayCircleIcon />} />
-            <BotaoPhomo color='danger' icon={<StopCircleIcon />} />
+            {/* <BotaoPhomo color='danger' icon={<StopCircleIcon />} />*/}
           </section>
         </main>
       )}
