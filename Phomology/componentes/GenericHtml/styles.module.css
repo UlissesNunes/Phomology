@@ -1,0 +1,66 @@
+.genericHtml {
+  --link-color: #2f8eed;
+  --title-color: #ffffff;
+  --text-color: #d1d1d1;
+  --accent-soft: rgba(255, 255, 255, 0.05);
+  
+  /* Centralização e Controle de Largura */
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, sans-serif;
+  text-align: left; /* Texto alinhado, container centralizado */
+}
+
+.genericHtml h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 1.5rem;
+  text-align: center; /* Título principal centralizado */
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--accent-soft);
+}
+
+.genericHtml h1::before {
+  content: "› ";
+  color: var(--link-color);
+}
+
+.genericHtml h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.genericHtml h2::before {
+  content: "› ";
+  color: var(--link-color);
+  font-size: 1.8rem;
+}
+
+.genericHtml p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  text-align: justify; /* Melhora a estética em blocos de texto centralizados */
+}
+
+.genericHtml a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(47, 142, 237, 0.2);
+  transition: 0.2s;
+}
+
+.genericHtml a:hover {
+  border-bottom-color: var(--link-color);
+  background: rgba(47, 142, 237, 0.1);
+}

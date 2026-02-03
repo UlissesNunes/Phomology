@@ -1,23 +1,18 @@
-
-import FooterPhomo from '../../../componentes/FooterPhomo'
-import { Heading } from '../../../componentes/Heading'
-import './App.css'
+import FooterPhomo from '../../../componentes/FooterPhomo';
+import { Heading } from '../../../componentes/Heading';
+import '../../App.css';
 
 type MainTemplatesProps = {
   children: React.ReactNode;
-}
+};
 
-
-export function MainTemplates({children}: MainTemplatesProps) {
- 
-
+export function MainTemplates({ children }: MainTemplatesProps) {
   return (
-   <>
-      <Heading  />
-    
-        {children}
+    <>
+      <Heading />
+
+      {children}
       <FooterPhomo />
-      </>
-    
-  )
+    </>
+  );
 }

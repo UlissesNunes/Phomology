@@ -1,7 +1,7 @@
 
 
 
-import { Home } from './Pages/Home';
+ import { Home } from './Pages/Home';
 
 
 
