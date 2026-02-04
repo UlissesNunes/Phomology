@@ -13,6 +13,7 @@ export function MainTemplates({ children }: MainTemplatesProps) {
 
       {children}
       <FooterPhomo />
+      
     </>
   );
 }

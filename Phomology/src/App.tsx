@@ -1,10 +1,12 @@
 
 
 
- import { Home } from './Pages/Home';
+
+import { NotFound404 } from './Pages/NotFound404';
 
 
 
 export function App() {
-  return <Home/>
+  return <NotFound404/>
+  
 }

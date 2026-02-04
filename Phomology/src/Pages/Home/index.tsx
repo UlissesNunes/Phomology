@@ -4,10 +4,12 @@ import { MainTemplates } from "../../templates/MainTemplates";
 
 export function Home () {
   return (
+    <>
     <MainTemplates>
         <CounterPhomo />
       <FormMainPhomo />
     </MainTemplates>
     
+    </>
   )
 }
