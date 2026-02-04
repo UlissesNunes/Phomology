@@ -2,11 +2,11 @@
 
 
 
-import { NotFound404 } from './Pages/NotFound404';
+import { SobrePhomo } from './Pages/SobrePhomo';
 
 
 
 export function App() {
-  return <NotFound404/>
+  return <SobrePhomo/>
   
 }
