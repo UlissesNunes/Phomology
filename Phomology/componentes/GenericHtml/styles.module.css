@@ -52,8 +52,8 @@
   line-height: 1.6;
   margin-bottom: 1.2rem;
   text-align: justify;
-  color: #71ace8;
-   /* Melhora a estética em blocos de texto centralizados */
+  color: var(--gray-800)
+   
 }
 
 .genericHtml a {
@@ -85,7 +85,7 @@
 --gray-700: #b6babd;
 --gray-800: #d6d7db;
 --gray-900: #f8f9fa;
-
+--link-color: #2f8eed;  
 --principal: #216bb5;
 --principal-dark: #2f8eed;
 --background-dark: #06182a;
