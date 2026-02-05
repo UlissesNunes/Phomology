@@ -52,7 +52,7 @@
   line-height: 1.6;
   margin-bottom: 1.2rem;
   text-align: justify;
-  color: var(--gray-800)
+  color: var(genericHtml)
    
 }
 
@@ -93,4 +93,6 @@
 --text-main: #e4f2ff;
 --sucess: #59a728;
 --warning: #efdc09;
+
+--genericHtml: #212121; 
 }
