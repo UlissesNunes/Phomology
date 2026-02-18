@@ -38,7 +38,10 @@ nav .a {
 }
 
 .headerPai h1 {
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
     color: var(--principal-dark);
     font-size: 1em;
 }
