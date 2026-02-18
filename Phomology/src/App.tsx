@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 
 import { Home } from './Pages/Home';
+import { ContextTaskProvider } from "./contexts/ContextTask";
 
 const InitialState: TaskStateModel = {
   tasks: [],
@@ -24,6 +25,12 @@ const InitialState: TaskStateModel = {
 export function App() {
 
   const [state, setState] = useState(InitialState);
-  return <Home state={state} setState={setState}/>
+  return (
+    <>
+    <ContextTaskProvider>
+  <Home state={state} setState={setState}/>
+  </ContextTaskProvider>
   
+  </>
+  )
 }

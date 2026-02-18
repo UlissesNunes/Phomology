@@ -1,6 +1,7 @@
 import styles from'./Counter.module.css' 
 
-export default function index() {
+export default function CounterPhomo() {
+  
   return (
     <>
 
