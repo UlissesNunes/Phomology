@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=00cba9&height=120&section=header" width="100%" />
-</p>
-
 <div align="center">
 
 # 🍎 Phomology — High-Performance Focus System
@@ -33,7 +29,7 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 
 ---
 
-## 🛠️ Stack Tech de Elite
+## 🛠️ Stack Tech
 
 <br />
 
@@ -60,4 +56,16 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 
 | 🛠️ Configuração de Foco | ⏳ Timer de Alta Precisão |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222819.png" width="380px" style="border-radius: 15px; border: 1px solid #30363e atritos visuais.
+| <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222819.png" width="380px" style="border-radius: 15px; border: 1px solid #30363d;" /> | <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222832.png" width="380px" style="border-radius: 15px; border: 1px solid #30363d;" /> |
+
+---
+
+## 🚀 Instalação e Execução
+
+**Para replicar este ambiente de alta performance em sua máquina:**
+
+```bash
+git clone --depth 1 [https://github.com/UlissesNunes/Phomology.git](https://github.com/UlissesNunes/Phomology.git)
+cd Phomology
+npm install
+npm run dev
