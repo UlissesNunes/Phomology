@@ -1,50 +1,62 @@
-# <p align="center">🍎 Phomology — Precision Focus System</p>
+# <p align="center">🍎 Phomology — High-Performance Focus System</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/leziert.webp" alt="Phomology Logo" width="400" />
+  <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/leziert.webp" alt="Phomology Logo" width="380" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/UlissesNunes/Phomology">
-    <img src="https://img.shields.io/github/stars/UlissesNunes/Phomology?style=for-the-badge&logo=github&color=6e5494&logoColor=white" alt="Github Stars">
-  </a>
-  <a href="https://github.com/UlissesNunes/Phomology/network/members">
-    <img src="https://img.shields.io/github/forks/UlissesNunes/Phomology?style=for-the-badge&logo=github&color=6e5494&logoColor=white" alt="Github Forks">
-  </a>
-  <a href="https://github.com/UlissesNunes/Phomology/issues">
-    <img src="https://img.shields.io/github/issues/UlissesNunes/Phomology?style=for-the-badge&logo=github&color=6e5494&logoColor=white" alt="Github Issues">
-  </a>
+  <img src="https://img.shields.io/github/last-commit/UlissesNunes/Phomology?style=for-the-badge&color=FF5F5F" alt="Last Commit">
+  <img src="https://img.shields.io/github/languages/top/UlissesNunes/Phomology?style=for-the-badge&color=61DAFB" alt="Top Language">
+  <img src="https://img.shields.io/github/repo-size/UlissesNunes/Phomology?style=for-the-badge&color=4ade80" alt="Repo Size">
 </p>
 
 <p align="center">
-  <strong>Onde a estética minimalista encontra a produtividade de elite.</strong><br>
-  Uma aplicação de Pomodoro desenvolvida para mentes que buscam perfeição técnica e visual.
+  <strong>Engenharia de precisão aplicada à gestão do tempo.</strong><br>
+  Uma aplicação minimalista que utiliza a técnica Pomodoro para transformar foco em resultados tangíveis.
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&height=60&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=00cba9&height=80&section=header" width="100%" />
 </p>
 
 ---
 
-## 💎 A Experiência Premium
+## 💎 A Experiência Phomology
 
-O **Phomology** não é apenas um timer. É uma declaração de foco. Construído para ser leve como o ar e preciso como um relógio suíço, ele utiliza **React + TypeScript** para entregar uma experiência livre de latência e visualmente impecável.
+O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda (*Deep Work*). Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
 
-### ⚡ Diferenciais de Performance
-- **Zero Layout Shift:** Estilização matemática com Tailwind CSS.
-- **Type Safety:** 100% desenvolvido em TypeScript para robustez absoluta.
-- **Vite Powered:** Hot Reload e build otimizada para o máximo desempenho.
+### ⚡ Engineering Highlights
+* **⚛️ React 18 & Vite:** Inicialização instantânea e reatividade atômica.
+* **🛡️ TypeScript Core:** Tipagem rigorosa para evitar falhas em estados críticos de tempo.
+* **🎨 Tailwind Visual Engine:** Design limpo, responsivo e com foco absoluto no timer.
+* **🔔 Lucide Intelligence:** Iconografia vetorial que guia a experiência do usuário sem ruído.
 
 ---
 
-## 🛠️ Stack Tecnológica de Elite
+## 🛠️ Stack de Elite (Tech Grid)
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,git" />
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,git,github&theme=dark" />
+  </a>
 </p>
 
-| Engine | Especialidade | Visual Link |
+| Módulo | Tecnologia | Propósito |
 | :--- | :--- | :--- |
-| **React 18** | Reatividade Atômica | [![](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/) |
-| **TypeScript** | Engenharia de Tipos | [![](
+| **Framework** | **React** | Orquestração de componentes e hooks de tempo. |
+| **Linguagem** | **TypeScript** | Segurança de dados e escalabilidade do código. |
+| **Estilização** | **Tailwind** | UX/UI consistente com zero overhead de CSS. |
+| **Build Tool** | **Vite** | Bundle otimizado e Hot Module Replacement ultra-rápido. |
+
+---
+
+## 🎨 Galeria de Interface
+
+> Design centrado no usuário, focado na eliminação de atritos visuais.
+
+<div align="center">
+  <table style="border-collapse: collapse; border: none;">
+    <tr style="border: none;">
+      <td style="padding: 10px; border: none;">
+        <p align="center"><strong>Configuração de Foco</strong></p>
+        <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222819.png" width="350px" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5
