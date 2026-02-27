@@ -21,7 +21,7 @@
 
 O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda. <br /> Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
 
-### ⚡ Engineering Highlights
+### ⚡ Highlights
 **⚛️ React 18 & Vite** — Inicialização instantânea e reatividade atômica.
 **🛡️ TypeScript Core** — Tipagem rigorosa para evitar falhas em estados críticos.
 **🎨 Tailwind Visual Engine** — Design limpo, responsivo e com foco absoluto no timer.
@@ -37,7 +37,7 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
   <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,git,github&theme=dark" />
 </a>
 
-<br /><br />
+<br />
 
 | Módulo | Tecnologia | Propósito |
 | :---: | :---: | :---: |
@@ -47,18 +47,8 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 | **Build Tool** | **Vite** | Bundle otimizado e HMR ultra-rápido. |
 
 ---
-
-## 🎨 Galeria de Interface
-
 > **Design centrado no usuário, focado na eliminação de atritos visuais.**
 
-<br />
-
-| 🛠️ Configuração de Foco | ⏳ Timer de Alta Precisão |
-| :---: | :---: |
-| <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222819.png" width="380px" style="border-radius: 15px; border: 1px solid #30363d;" /> | <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222832.png" width="380px" style="border-radius: 15px; border: 1px solid #30363d;" /> |
-
----
 
 ## 🚀 Instalação e Execução
 
