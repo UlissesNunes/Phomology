@@ -1,47 +1,63 @@
-# <p align="center">🍎 Phomology — High-Performance Focus System</p>
-
-
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/UlissesNunes/Phomology?style=for-the-badge&color=FF5F5F" alt="Last Commit">
-  <img src="https://img.shields.io/github/languages/top/UlissesNunes/Phomology?style=for-the-badge&color=61DAFB" alt="Top Language">
-  <img src="https://img.shields.io/github/repo-size/UlissesNunes/Phomology?style=for-the-badge&color=4ade80" alt="Repo Size">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=00cba9&height=120&section=header" width="100%" />
 </p>
 
-<p align="center">
-  <strong>Engenharia de precisão aplicada à gestão do tempo.</strong><br>
-  Uma aplicação minimalista que utiliza a técnica Pomodoro para transformar foco em resultados tangíveis.
-</p>
+<div align="center">
+
+# 🍎 Phomology — High-Performance Focus System
+
+<img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/leziert.webp" alt="Phomology Logo" width="380" />
+
+<br />
+
+[![Last Commit](https://img.shields.io/github/last-commit/UlissesNunes/Phomology?style=for-the-badge&color=FF5F5F)](https://github.com/UlissesNunes/Phomology)
+[![Top Language](https://img.shields.io/github/languages/top/UlissesNunes/Phomology?style=for-the-badge&color=61DAFB)](https://github.com/UlissesNunes/Phomology)
+[![Repo Size](https://img.shields.io/github/repo-size/UlissesNunes/Phomology?style=for-the-badge&color=4ade80)](https://github.com/UlissesNunes/Phomology)
+
+<br />
+
+### 🎯 Engenharia de precisão aplicada à gestão do tempo.
+**Uma aplicação minimalista que utiliza a técnica Pomodoro para transformar foco em resultados tangíveis.**
+
 ---
 
 ## 💎 A Experiência Phomology
 
-O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda. Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
+O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda. <br /> Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
 
 ### ⚡ Engineering Highlights
-* **⚛️ React 18 & Vite:** Inicialização instantânea e reatividade atômica.
-* **🛡️ TypeScript Core:** Tipagem rigorosa para evitar falhas em estados críticos de tempo.
-* **🎨 Tailwind Visual Engine:** Design limpo, responsivo e com foco absoluto no timer.
-* **🔔 Lucide Intelligence:** Iconografia vetorial que guia a experiência do usuário sem ruído.
+**⚛️ React 18 & Vite** — Inicialização instantânea e reatividade atômica.
+**🛡️ TypeScript Core** — Tipagem rigorosa para evitar falhas em estados críticos.
+**🎨 Tailwind Visual Engine** — Design limpo, responsivo e com foco absoluto no timer.
+**🔔 Lucide Intelligence** — Iconografia vetorial que guia a experiência do usuário.
 
 ---
 
-## 🛠️ Stack Tech
+## 🛠️ Stack Tech de Elite
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,git,github&theme=dark" />
-  </a>
-</p>
+<br />
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,git,github&theme=dark" />
+</a>
+
+<br /><br />
 
 | Módulo | Tecnologia | Propósito |
-| :--- | :--- | :--- |
-| **Framework** | **React** | Orquestração de componentes e hooks de tempo. |
-| **Linguagem** | **TypeScript** | Segurança de dados e escalabilidade do código. |
-| **Estilização** | **Tailwind** | UX/UI consistente com zero overhead de CSS. |
-| **Build Tool** | **Vite** | Bundle otimizado e Hot Module Replacement ultra-rápido. |
+| :---: | :---: | :---: |
+| **Framework** | **React** | Orquestração de componentes e hooks. |
+| **Linguagem** | **TypeScript** | Segurança de dados e escalabilidade. |
+| **Estilização** | **Tailwind** | UX/UI consistente com zero overhead. |
+| **Build Tool** | **Vite** | Bundle otimizado e HMR ultra-rápido. |
 
 ---
 
 ## 🎨 Galeria de Interface
 
-> Design centrado no usuário, focado na eliminação de atritos visuais.
+> **Design centrado no usuário, focado na eliminação de atritos visuais.**
+
+<br />
+
+| 🛠️ Configuração de Foco | ⏳ Timer de Alta Precisão |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222819.png" width="380px" style="border-radius: 15px; border: 1px solid #30363e atritos visuais.
