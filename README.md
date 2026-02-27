@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🍎 Phomology — High-Performance Focus System
-
-<img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/leziert.webp" alt="Phomology Logo" width="380" />
+# Phomology — High-Performance Focus System
 
 <br />
 
@@ -19,9 +17,13 @@
 
 ## 💎 A Experiência Phomology
 
+
 O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda. <br /> Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
 
+
 ### ⚡ Highlights
+
+
 **⚛️ React 18 & Vite** — Inicialização instantânea e reatividade atômica.
 **🛡️ TypeScript Core** — Tipagem rigorosa para evitar falhas em estados críticos.
 **🎨 Tailwind Visual Engine** — Design limpo, responsivo e com foco absoluto no timer.
@@ -33,11 +35,12 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 
 <br />
 
+
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,git,github&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,html,css,js,vercel,git,github&theme=dark" />
 </a>
 
-<br />
+<br /><br />
 
 | Módulo | Tecnologia | Propósito |
 | :---: | :---: | :---: |
@@ -47,8 +50,8 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 | **Build Tool** | **Vite** | Bundle otimizado e HMR ultra-rápido. |
 
 ---
-> **Design centrado no usuário, focado na eliminação de atritos visuais.**
 
+> **Design centrado no usuário, focado na eliminação de atritos visuais.**
 
 ## 🚀 Instalação e Execução
 
