@@ -1,8 +1,5 @@
 # <p align="center">🍎 Phomology — High-Performance Focus System</p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/leziert.webp" alt="Phomology Logo" width="380" />
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/UlissesNunes/Phomology?style=for-the-badge&color=FF5F5F" alt="Last Commit">
@@ -14,16 +11,11 @@
   <strong>Engenharia de precisão aplicada à gestão do tempo.</strong><br>
   Uma aplicação minimalista que utiliza a técnica Pomodoro para transformar foco em resultados tangíveis.
 </p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=00cba9&height=80&section=header" width="100%" />
-</p>
-
 ---
 
 ## 💎 A Experiência Phomology
 
-O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda (*Deep Work*). Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
+O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade profunda. Onde outros apps oferecem distrações, nós entregamos clareza visual e performance bruta.
 
 ### ⚡ Engineering Highlights
 * **⚛️ React 18 & Vite:** Inicialização instantânea e reatividade atômica.
@@ -33,7 +25,7 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 
 ---
 
-## 🛠️ Stack de Elite (Tech Grid)
+## 🛠️ Stack Tech
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -53,10 +45,3 @@ O **Phomology** foi concebido para ser a ferramenta definitiva de produtividade 
 ## 🎨 Galeria de Interface
 
 > Design centrado no usuário, focado na eliminação de atritos visuais.
-
-<div align="center">
-  <table style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td style="padding: 10px; border: none;">
-        <p align="center"><strong>Configuração de Foco</strong></p>
-        <img src="https://raw.githubusercontent.com/UlissesNunes/Phomology/main/public/Captura%20de%20tela%202026-02-26%20222819.png" width="350px" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5
