@@ -1,7 +1,9 @@
+import { useContextTask } from '../../src/contexts/ContextTask';
 import styles from'./Counter.module.css' 
 
 export default function CounterPhomo() {
-  
+  const taskContext = useContextTask();
+  console.log(taskContext.state.formattedSecondsRemaining);
   return (
     <>
 
