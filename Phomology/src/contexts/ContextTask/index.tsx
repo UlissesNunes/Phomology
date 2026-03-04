@@ -14,16 +14,16 @@ const InitialState: TaskStateModel = {
   },
 };
 
-const InitialContextValue: ContextTaskType = {
-  state: InitialState,
-  setState: () => {},
-}
-
 type ContextTaskType = {
   state: TaskStateModel;
   setState: React.Dispatch<React.SetStateAction<TaskStateModel>>;
 }
 
+
+const InitialContextValue: ContextTaskType = {
+  state: InitialState,
+  setState: () => {},
+}
 export const ContextTask = createContext<ContextTaskType>(InitialContextValue)
 
 type ContextTaskProviderProps = {
