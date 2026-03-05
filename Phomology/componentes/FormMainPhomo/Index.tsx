@@ -3,8 +3,9 @@ import styles from'./FormMainPhomo.module.css'
 import DefaultInput from '../DefaultInput'
 import CycleRoutes from '../CycleRoutes'
 import BotaoPhomo from '../BotaoPhomo'
-import { useContextTask } from '../../src/contexts/ContextTask';
+
 import { PlayCircleIcon } from 'lucide-react'
+import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps'
 
 export default function FormMainPhomo() {
   const {setState} = useContextTask();

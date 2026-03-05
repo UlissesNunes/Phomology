@@ -1,4 +1,5 @@
-import { useContextTask } from '../../src/contexts/ContextTask';
+
+import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps';
 import styles from'./Counter.module.css' 
 
 export default function CounterPhomo() {

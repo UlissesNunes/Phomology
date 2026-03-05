@@ -1,6 +1,7 @@
 
+import { ContextTaskProvider } from './contexts/ContextTask/ContextTaskProvider';
 import { Home } from './Pages/Home';
-import { ContextTaskProvider } from "./contexts/ContextTask";
+
 
 
 export function App() {
