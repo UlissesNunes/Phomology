@@ -6,7 +6,7 @@ type BotaoPhomoProps = {
   color?: 'principal' | 'danger'
 } & React.ComponentProps<'button'>
 
-export default function index({icon , color= 'principal' ,...props}: BotaoPhomoProps) {
+export default function BotaoPhomo({icon , color= 'principal' ,...props}: BotaoPhomoProps) {
   return (
     <>
 
