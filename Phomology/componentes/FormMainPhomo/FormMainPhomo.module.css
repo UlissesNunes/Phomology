@@ -1,16 +1,16 @@
-section.FormMainPhomo{
+.FormMainPhomo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  line-height: 1.4;
-  font-weight: bold;
 }
 
-.p {
-  
-  font-size: clamp(5em, 30vw, 11em);
-
+.FormMainPhomo main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
 }
 
 .FormPhomo {
@@ -19,12 +19,31 @@ section.FormMainPhomo{
   align-items: center;
   width: 100%;
   margin-top: 25px;
-  line-height: 2.6;
-  
-
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
+.formRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.formRow p {
+  text-align: center;
+}
+
+.p {
+  font-size: clamp(5em, 30vw, 11em);
+}
 
 .fade-in-section {
   animation: fadeIn 0.5s ease-in-out;
@@ -32,5 +51,14 @@ section.FormMainPhomo{
   opacity: 0;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
 
-
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

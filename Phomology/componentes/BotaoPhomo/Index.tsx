@@ -10,7 +10,7 @@ export default function index({icon , color= 'principal' ,...props}: BotaoPhomoP
   return (
     <>
 
-    <button className={`${styles.BotaoPhomo} ${styles[color]}`}
+    <button type='submit' className={`${styles.BotaoPhomo}  ${styles[color]}`}
        { ...props}>
 
         {icon}
