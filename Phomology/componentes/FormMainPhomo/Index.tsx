@@ -7,10 +7,15 @@ import { PlayCircleIcon } from 'lucide-react';
 import { useState } from 'react';
 import type { TaskModel } from '../../src/Models/TaskModel';
 import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps';
+import { getNextCycle } from '../../src/utils/getNextCycle';
 
 export default function FormMainPhomo() {
   const [TaskName, setTaskName] = useState('');
-  const { setState } = useContextTask();
+  const { state, setState } = useContextTask();
+
+  const nextCycle = getNextCycle(state.currentCycle);
+  console.log('nextCycle', nextCycle);
+
   function handleCreateNewTask(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -37,7 +42,7 @@ export default function FormMainPhomo() {
         ...prevState,
         config: { ...prevState.config },
         activeTask: newTask,
-        currentCycle: 1,
+        currentCycle: nextCycle,
         secundsRemaining: newTask.duration * 60,
         formattedSecundesRemaining: '00:00',
         tasks: [...prevState.tasks, newTask],
