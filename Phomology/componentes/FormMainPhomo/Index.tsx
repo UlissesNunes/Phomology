@@ -6,11 +6,12 @@ import BotaoPhomo from '../BotaoPhomo'
 import { PlayCircleIcon } from 'lucide-react'
 import { useState } from 'react'
 import type { TaskModel } from '../../src/Models/TaskModel'
+import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps'
 
 export default function FormMainPhomo() {
 
   const [TaskName, setTaskName] = useState('');
-  
+  const {setState} = useContextTask();
   function handleCreateNewTask(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     
@@ -32,7 +33,7 @@ export default function FormMainPhomo() {
       type:{"workTime": 25, "shortBreakTime": 5, "longBreakTime": 15},
     };
 
-    setTaskName(prevState => {
+    setState(prevState => {
      return { 
       ...prevState,
       config: {...prevState.config},
@@ -40,7 +41,6 @@ export default function FormMainPhomo() {
       currentCycle: 1,
       secundsRemaining: newTask.duration * 60,
       formattedSecundesRemaining: "00:00",
-      
       tasks: [...prevState.tasks, newTask]
     }
   });
