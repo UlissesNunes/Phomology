@@ -68,6 +68,7 @@ export default function FormMainPhomo() {
           placeholder='Qual será o tema do estudo?'
           value={TaskName}
           onChange={event => setTaskName(event.target.value)}
+          disabled={!!state.activeTask}
         />
 
         <section className={styles.FormPhomo}>
