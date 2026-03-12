@@ -9,6 +9,7 @@ import type { TaskModel } from '../../src/Models/TaskModel';
 import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps';
 import { getNextCycle } from '../../src/utils/getNextCycle';
 import { getNextCycleType } from '../../src/utils/getNextCycleType';
+import { getFormatSecundsToMinutes } from '../../src/utils/getFormatSecundsToMinutes';
 
 export default function FormMainPhomo() {
   const [TaskName, setTaskName] = useState('');
@@ -40,14 +41,16 @@ export default function FormMainPhomo() {
       type: nextCyleType,
     };
 
+    const secundsRemaining = newTask.duration * 60;
+
     setState(prevState => {
       return {
         ...prevState,
         config: { ...prevState.config },
         activeTask: newTask,
         currentCycle: nextCycle,
-        secundsRemaining: newTask.duration * 60,
-        formattedSecundesRemaining: '00:00',
+        secundsRemaining,
+        formattedSecundesRemaining: getFormatSecundsToMinutes(secundsRemaining),
         tasks: [...prevState.tasks, newTask],
       };
     });
