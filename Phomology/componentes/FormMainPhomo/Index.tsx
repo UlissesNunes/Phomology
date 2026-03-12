@@ -8,6 +8,7 @@ import { useState } from 'react';
 import type { TaskModel } from '../../src/Models/TaskModel';
 import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps';
 import { getNextCycle } from '../../src/utils/getNextCycle';
+import { getNextCycleType } from '../../src/utils/getNextCycleType';
 
 export default function FormMainPhomo() {
   const [TaskName, setTaskName] = useState('');
@@ -15,6 +16,8 @@ export default function FormMainPhomo() {
 
   const nextCycle = getNextCycle(state.currentCycle);
   console.log('nextCycle', nextCycle);
+
+   const nextCyleType = getNextCycleType(nextCycle);
 
   function handleCreateNewTask(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -30,11 +33,11 @@ export default function FormMainPhomo() {
     const newTask: TaskModel = {
       id: Date.now().toString(),
       name: TaskNameValueTrim,
-      duration: 1,
+      duration: state.config[nextCyleType] || state.config.workTime, // Usa o tipo de ciclo para determinar a duração
       startDate: Date.now(),
       interruptDate: null,
       completeDate: null,
-      type: { workTime: 25, shortBreakTime: 5, longBreakTime: 15 },
+      type: nextCyleType,
     };
 
     setState(prevState => {
