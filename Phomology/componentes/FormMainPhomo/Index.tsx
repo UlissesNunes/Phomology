@@ -41,7 +41,7 @@ export default function FormMainPhomo() {
       type: nextCyleType,
     };
 
-    const secundsRemaining = newTask.duration * 60;
+    const secondsRemaining = newTask.duration * 60;
 
     setState(prevState => {
       return {
@@ -49,8 +49,8 @@ export default function FormMainPhomo() {
         config: { ...prevState.config },
         activeTask: newTask,
         currentCycle: nextCycle,
-        secundsRemaining,
-        formattedSecundesRemaining: getFormatSecundsToMinutes(secundsRemaining),
+        secondsRemaining: secondsRemaining,
+        formattedSecondsRemaining: getFormatSecundsToMinutes(secondsRemaining),
         tasks: [...prevState.tasks, newTask],
       };
     });

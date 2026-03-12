@@ -14,17 +14,15 @@
   display: inline-block;
 }
 
-.workCurto {
-  background-color: #1bb3cee0;
+.workTime {
+  background-image: linear-gradient(to bottom, #1bb3cee0, #013d32ec);
 }
 
-.workLongo {
-  background-color: #005a4aec;
-;
-}
-.breakCurto {
+
+
+.shortBreakTime {
   background-color: #dbc307;
 }
-.breakLongo {
+.longBreakTime {
   background-color: #981307;
 }
