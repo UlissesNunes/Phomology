@@ -3,7 +3,7 @@ import styles from './FormMainPhomo.module.css';
 import DefaultInput from '../DefaultInput';
 import CycleRoutes from '../CycleRoutes';
 import BotaoPhomo from '../BotaoPhomo';
-import { PlayCircleIcon } from 'lucide-react';
+import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 import { useState } from 'react';
 import type { TaskModel } from '../../src/Models/TaskModel';
 import { useContextTask } from '../../src/contexts/ContextTask/UseContextProps';
@@ -83,7 +83,25 @@ export default function FormMainPhomo() {
             </div>
 
             <div className={styles.formRow}>
-              <BotaoPhomo color='principal' icon={<PlayCircleIcon />} />
+             
+               {!state.activeTask ? (
+          <BotaoPhomo
+            aria-label='Iniciar nova tarefa'
+            title='Iniciar nova tarefa'
+            type='submit'
+            icon={<PlayCircleIcon />}
+            key={"button_submit"}
+          />
+        ) : (
+          <BotaoPhomo
+            aria-label='Interromper tarefa atual'
+            title='Interromper tarefa atual'
+            type='button'
+            color='danger'
+            icon={<StopCircleIcon />}
+            key={"button_nosubmit"}
+          />
+        )}
             </div>
           </form>
         </section>
