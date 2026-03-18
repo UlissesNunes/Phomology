@@ -14,7 +14,7 @@ import { getFormatSecundsToMinutes } from '../../src/utils/getFormatSecundsToMin
 export default function FormMainPhomo() {
   const [TaskName, setTaskName] = useState('');
   const { state, setState } = useContextTask();
-
+  
   const nextCycle = getNextCycle(state.currentCycle);
   console.log('nextCycle', nextCycle);
 
