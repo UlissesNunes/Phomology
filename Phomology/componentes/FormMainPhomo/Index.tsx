@@ -1,3 +1,4 @@
+
 import styles from './FormMainPhomo.module.css';
 
 import DefaultInput from '../DefaultInput';
@@ -58,6 +59,25 @@ export default function FormMainPhomo() {
     setTaskName('');
   }
 
+
+  function handleInterruptTask() {
+    setState(prevState => {
+      return {
+        ...prevState,
+        
+        activeTask: null,
+        secondsRemaining: 0,
+        formattedSecondsRemaining: "00:00",
+        tasks: prevState.tasks.map(task => {
+          if (prevState.activeTask && prevState.activeTask.id === task.id) {
+            return { ...task, interruptDate: Date.now() };
+          }
+          return task;
+        }),
+      };
+    });
+
+  }
   return (
     <section className={styles.FormMainPhomo}>
       <main>
@@ -100,6 +120,7 @@ export default function FormMainPhomo() {
             color='danger'
             icon={<StopCircleIcon />}
             key={"button_nosubmit"}
+            onClick={handleInterruptTask}
           />
         )}
             </div>
